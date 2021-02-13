@@ -21,6 +21,12 @@ header{
   padding-right: 20;
   padding:10px 10px;
 }
+#Logo{
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  text-shadow: 5px 5px 0px var(--secondBlack);
+}
 nav{
   text-align: right;
 }
