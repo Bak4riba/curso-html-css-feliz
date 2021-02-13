@@ -15,6 +15,7 @@
 header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background:var(--firstBlack);
   border-bottom: 10px solid var(--firstBlack);
   padding-left: 20px;
@@ -94,3 +95,6 @@ a::before{
   transform: translate3d(2px, 0, 0);
   }
 }
+
+
+
