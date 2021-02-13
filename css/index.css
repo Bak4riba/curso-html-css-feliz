@@ -1,0 +1,90 @@
+:root{
+  --primaryColor: #7678ED;
+  --secondaryColor:#24003D;
+  --thirdColor:#FFF;
+  --fourthColor:#4C5B84;
+  --firstBlack:#000000;
+  --secondBlack:#3A4042;
+  --thirdBlack:#828282;
+  --sucessColor:#62C370;
+  --warningColor:#CEB02A;
+  --errorColor:#BA1F33;
+  
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background:var(--firstBlack);
+  border-bottom: 10px solid var(--firstBlack);
+  padding-left: 20px;
+  padding-right: 20;
+  padding:10px 10px;
+}
+nav{
+  text-align: right;
+}
+a{
+  display:inline-flex ;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+  font-family: 'Fira Code', monospace;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+a::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--primaryColor);
+  margin:10px;
+}
+
+#btn-cv{
+  display: inline-block;
+  background-color: var(--primaryColor);
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 5px 0px var(--secondBlack);
+}
+
+#btn-cv:hover{
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-duration: 2s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes shake {
+  0%, 100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  }
+  }
+  @keyframes shake {
+  0%, 100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+  -webkit-transform: translate3d(-2px, 0, 0);
+  transform: translate3d(-2px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+  -webkit-transform: translate3d(2px, 0, 0);
+  transform: translate3d(2px, 0, 0);
+  }
+}
