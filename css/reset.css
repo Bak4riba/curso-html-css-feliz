@@ -1,3 +1,16 @@
+:root{
+  --primaryColor: #7678ED;
+  --secondaryColor:#24003D;
+  --thirdColor:#FFF;
+  --fourthColor:#4C5B84;
+  --firstBlack:#000000;
+  --secondBlack:#3A4042;
+  --thirdBlack:#828282;
+  --sucessColor:#62C370;
+  --warningColor:#CEB02A;
+  --errorColor:#BA1F33;
+}
 body,h1,h2,h3{
   margin:0;
 }
+

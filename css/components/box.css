@@ -1,17 +1,4 @@
-:root{
-  --primaryColor: #7678ED;
-  --secondaryColor:#24003D;
-  --thirdColor:#FFF;
-  --fourthColor:#4C5B84;
-  --firstBlack:#000000;
-  --secondBlack:#3A4042;
-  --thirdBlack:#828282;
-  --sucessColor:#62C370;
-  --warningColor:#CEB02A;
-  --errorColor:#BA1F33;
-}
-
-#box{
+.box{
   display: inline-block;
   background-color:var(--thirdBlack);
   width: 630px;
@@ -20,7 +7,6 @@
   padding:42px 44px;
 }
 
-#box h1{
-
+.box .title{
   margin-bottom:28px
 }
